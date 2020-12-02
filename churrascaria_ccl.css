@@ -1,0 +1,38 @@
+body {
+    font: normal 20px Arial;
+}
+
+header {
+    background: rgb(37, 2, 37);
+    color: white;
+    height: 200px;
+}
+
+header h1 {
+    font-size: 40px;
+    position: relative;
+    top: 60px;
+    left: 200px; 
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    height: 200px;
+    width: 100%;
+}
+nav a {
+    position: relative;
+    left: 60%;
+    font-size: 40px;
+    top: 60px;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: rgb(4, 199, 4);
+}
+
+
