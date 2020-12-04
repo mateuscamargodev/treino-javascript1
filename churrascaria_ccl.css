@@ -71,8 +71,12 @@ nav a:hover {
     font-size: 20pt;
 }
 
+.pratos-principais {
+    height: 600px;
+}
+
 .container-imagens {
-    margin: 0 1%;
+    margin: 20px 1%;
     display: inline-block;
     width: 31%;
     height: 400px;
@@ -84,6 +88,7 @@ nav a:hover {
 
 .container-imagens:hover .legenda-imagem {
     font-size: 30pt;
+    font-style: italic;
 }
 
 .imagem {
@@ -97,9 +102,59 @@ nav a:hover {
     background: white;
     text-align: center;
     padding: 20px 0;
-    font-style: italic;
+    /*font-style: italic;*/
     font-size: 20pt;
     transition: 0.3s all;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400);
 }
 
+.ultimas-declaracoes {
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+}
+
+.titulo3 {
+    text-align: center;
+    margin: 50px 0;
+    font-weight: bold;
+}
+
+.qualidades {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-qualidades {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+#imagem2 {
+    width: 60%;
+    transition: 0.3s all;
+}
+
+#imagem2:hover {
+    opacity: 0.5;
+}
+
+.video-caixa {
+    width: 50%;
+    margin: 70px auto;
+}
+
+#video {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
