@@ -71,41 +71,49 @@ nav a:hover {
     font-size: 20pt;
 }
 
-.pratos-principais {
-    height: 600px;
-}
-
 .container-imagens {
     margin: 20px 1%;
     display: inline-block;
     width: 31%;
-    height: 400px;
+    min-width: 400px;
+    height: 300px;
+    background-size: 100%;
+    position: relative;
+    transition: 0.3s all;
 }
 
-.container-imagens:hover .imagem {
-    opacity: 0.4;
+.container-imagens:hover {
+    height: 330px;
+    font-style: italic;
 }
 
 .container-imagens:hover .legenda-imagem {
     font-size: 30pt;
-    font-style: italic;
 }
 
-.imagem {
+.transparencia {
+    background: white;
     width: 100%;
     height: 100%;
+    opacity: 0;
     transition: 0.3s all;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400);
+}
+
+.container-imagens:hover .transparencia {
+    opacity: 0.5;
 }
 
 .legenda-imagem {
     background: white;
     text-align: center;
     padding: 20px 0;
-    /*font-style: italic;*/
     font-size: 20pt;
     transition: 0.3s all;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .ultimas-declaracoes {
