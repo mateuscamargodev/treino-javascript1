@@ -1,0 +1,75 @@
+body {
+    font: normal 16px Arial;
+    background: rgb(37, 2, 37);
+}
+
+.container-corpo {
+    background: white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.300);
+    width: 50%;
+    margin: 0 auto;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+header hr {
+    width: 95%;
+    opacity: 0.5;
+}
+
+.titulo3 {
+    margin: 0 5%;
+    font-size: 20px;
+    display: block;
+}
+
+.galeria-imagens {
+    width: 100%;
+    margin: auto;
+}
+
+.foto {
+    width: 39%;
+    box-sizing: border-box;
+    margin: 20px 5%;
+    display: inline-block;
+    height: 350px;
+    border: 1px solid rgb(27, 25, 25);
+    transition: 0.3s;
+}
+
+.foto img {
+    width: 100%;
+    height: 75%;
+    box-sizing: border-box;
+    transition: 0.3s all;
+}
+
+.foto:hover img{
+    opacity: 0.5;
+}
+
+.foto:hover {
+    font-size: 40px;
+}
+
+.desc {
+    text-align: center;
+    padding: 1em;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+footer hr {
+    width: 95%;
+    margin: 20px;
+}

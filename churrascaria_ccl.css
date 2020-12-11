@@ -1,0 +1,175 @@
+body {
+    font: normal 20px Arial;
+    background: linear-gradient(#fff, #777);
+}
+
+header {
+    background: rgb(37, 2, 37);
+    color: white;
+    height: 200px;
+}
+
+header h1 {
+    font-size: 40px;
+    position: relative;
+    top: 60px;
+    left: 200px; 
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    height: 200px;
+    width: 100%;
+}
+nav a {
+    position: relative;
+    left: 60%;
+    font-size: 40px;
+    top: 60px;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: rgb(4, 199, 4);
+}
+
+.introducao {
+    margin: 100px 0;
+}
+
+#churrasco1 {
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin: 0 30px;
+    opacity: 0.8;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.400);
+}
+
+#churrasco1:hover {
+    opacity: 1.0;
+}
+
+.caixa-texto1 {
+    text-align: justify;
+    margin: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 40px 0 13px;
+}
+
+.titulo-principal {
+    font-weight: bold;
+    font-size: 30pt;
+    margin: 15px 0;
+}
+
+.texto1 {
+    font-size: 20pt;
+}
+
+.container-imagens {
+    margin: 20px 1%;
+    display: inline-block;
+    width: 31%;
+    min-width: 400px;
+    height: 300px;
+    background-size: 100%;
+    position: relative;
+    transition: 0.3s all;
+}
+
+.container-imagens:hover {
+    height: 330px;
+    font-style: italic;
+}
+
+.container-imagens:hover .legenda-imagem {
+    font-size: 30pt;
+}
+
+.transparencia {
+    background: white;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.container-imagens:hover .transparencia {
+    opacity: 0.5;
+}
+
+.legenda-imagem {
+    background: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20pt;
+    transition: 0.3s all;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.ultimas-declaracoes {
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+}
+
+.titulo3 {
+    text-align: center;
+    margin: 50px 0;
+    font-weight: bold;
+}
+
+.qualidades {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-qualidades {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+#imagem2 {
+    width: 60%;
+    transition: 0.3s all;
+}
+
+#imagem2:hover {
+    opacity: 0.5;
+}
+
+.video-caixa {
+    width: 50%;
+    margin: 70px auto;
+}
+
+#video {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+footer {
+    background: rgb(37, 2, 37);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
