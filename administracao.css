@@ -1,0 +1,18 @@
+body {
+    font: normal 16px Arial;
+    background: purple;
+}
+
+.container-administracao {
+    width: 50%;
+    background: white;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 40px;
+    font-size: 30px;
+}
+
+
+

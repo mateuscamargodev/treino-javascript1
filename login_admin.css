@@ -1,0 +1,13 @@
+body {
+    font: normal 20px Arial;
+    background: linear-gradient(rgb(68, 55, 55), rgb(143, 131, 131));
+}
+
+.caixa-login {
+    width: 50%;
+    height: 500px;
+    background: white;
+    margin: 250px auto;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.300);
+    padding: 30px;
+}
